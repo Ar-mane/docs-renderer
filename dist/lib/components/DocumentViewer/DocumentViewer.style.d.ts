@@ -1,0 +1,11 @@
+import { Document, Page } from 'react-pdf';
+export declare const StyledWrapper: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledGridItem: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledScrollContainer: import("styled-components").StyledComponent<import("react").ForwardRefExoticComponent<Omit<import("react-zoom-pan-pinch").ReactZoomPanPinchProps, "ref"> & import("react").RefAttributes<import("react-zoom-pan-pinch").ReactZoomPanPinchRef>>, any, {}, never>;
+export declare const StyledDocument: import("styled-components").StyledComponent<typeof Document, any, {}, never>;
+export declare const StyledPage: import("styled-components").StyledComponent<typeof Page, any, {}, never>;
+export declare const PDFToolbar: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledIcon: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledPageController: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledZoomController: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const StyledPageLabel: import("styled-components").StyledComponent<"div", any, {}, never>;

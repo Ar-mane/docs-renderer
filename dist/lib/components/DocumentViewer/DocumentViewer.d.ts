@@ -1,0 +1,6 @@
+import type { FC } from 'react';
+interface IDocumentViewerProps {
+    file: Blob | string;
+}
+declare const DocumentViewer: FC<IDocumentViewerProps>;
+export default DocumentViewer;
