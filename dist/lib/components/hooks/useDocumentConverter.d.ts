@@ -1,4 +1,4 @@
-import { ContentType } from './types';
+import { ContentType } from "../types";
 interface UseDocumentConverterResult {
     contentType: ContentType;
     documentBase64: string | undefined;

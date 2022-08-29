@@ -1,20 +1,21 @@
-import styled from 'styled-components';
-import { DocumentViewer } from './lib';
+import { DocumentViewer } from "@lib";
+import styled from "styled-components";
 
 function App() {
-    const blob = 'test.pdf';
+  const blob = "fileTest.pdf";
 
-    return (
-        <div className="App">
-            <DocumentViewer file={blob} />
-        </div>
-    );
+  return (
+    <Wrapper>
+      <DocumentViewer file={blob} />
+    </Wrapper>
+  );
 }
 
 const Wrapper = styled.div`
-    margin: 2rem;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 2rem;
 `;
 
 export default App;
